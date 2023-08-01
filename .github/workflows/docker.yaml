@@ -25,5 +25,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/bastionlab:latest, ${{ secrets.DOCKER_HUB_USERNAME }}/bastionlab:${{ github.event.release.tag_name }}
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/pytorch_dev:latest
     
